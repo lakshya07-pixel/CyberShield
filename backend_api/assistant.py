@@ -1,5 +1,5 @@
 """
-Bharat AI-SoC Grounded Security Assistant Service.
+CyberShield Grounded Security Assistant Service.
 
 Provides deterministic, evidence-grounded security explanations and answers
 to security queries based on active detection telemetry across SMS, URL,
@@ -173,7 +173,7 @@ class SecurityAssistant:
 
         elif "summar" in q or "latest" in q or "status" in q:
             response_parts.append(
-                "**Bharat AI-SoC Monitoring & Telemetry Summary**:\n"
+                "**CyberShield Monitoring & Telemetry Summary**:\n"
                 "- **Network IDS**: 79-feature flow classification active (PCAP Replay operational; Npcap native capture reported).\n"
                 "- **URL Phishing Scanner**: 16-feature Random Forest & ccTLD suppression active.\n"
                 "- **SMS Scam Detector**: TF-IDF + Logistic Regression NLP pipeline active.\n"
@@ -183,7 +183,7 @@ class SecurityAssistant:
 
         else:
             response_parts.append(
-                "**Bharat AI-SoC Grounded Security Assistant**:\n"
+                "**CyberShield Grounded Security Assistant**:\n"
                 "I provide evidence-grounded threat analysis across SMS, URL, and Network IDS channels.\n\n"
                 "You can ask me:\n"
                 "- *'Why was this SMS marked as suspicious?'*\n"

@@ -17,7 +17,7 @@ class TestHealthEndpoint(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         data = response.json()
         self.assertEqual(data["status"], "healthy")
-        self.assertEqual(data["service"], "Bharat AI-SoC Threat Advisory API")
+        self.assertEqual(data["service"], "CyberShield Threat Advisory API")
         self.assertEqual(data["engine_status"], "rule_based_active")
         self.assertIn("network_ids", data["detector_status"])
         self.assertIn("unavailable", data["detector_status"]["network_ids"])

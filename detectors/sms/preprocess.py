@@ -1,7 +1,7 @@
 """
 SMS Text Preprocessing and Normalization Module.
 Normalizes high-variance entities (URLs, Indian currency figures, OTP/phone digit strings)
-and extracts contextual scam keywords for the Bharat AI-SoC Challenge.
+and extracts contextual scam keywords for the CyberShield Challenge.
 """
 
 import re

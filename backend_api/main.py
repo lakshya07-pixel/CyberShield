@@ -51,7 +51,7 @@ except Exception:
 SUPPORTED_THREAT_TYPES = {"intrusion", "phishing", "scam", "normal", "benign"}
 
 app = FastAPI(
-    title="Bharat AI-SoC Threat Advisory API",
+    title="CyberShield Threat Advisory API",
     description=(
         "HTTP API for the verified rule-based threat advisory engine "
         "and evidence-based correlation of submitted event records."
@@ -147,7 +147,7 @@ class AdvisoryResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str = "healthy"
     version: str = "1.0.0"
-    service: str = "Bharat AI-SoC Threat Advisory API"
+    service: str = "CyberShield Threat Advisory API"
     engine_status: str = "rule_based_active"
     detector_status: Dict[str, str]
     llama_status: LlamaStatus
@@ -170,7 +170,7 @@ async def health_check():
     return HealthResponse(
         status="healthy",
         version="1.0.0",
-        service="Bharat AI-SoC Threat Advisory API",
+        service="CyberShield Threat Advisory API",
         engine_status="rule_based_active",
         detector_status={
             "network_ids": "available (in-process 79-feature RF pipeline)" if NETWORK_IDS_AVAILABLE else "unavailable",
@@ -311,7 +311,7 @@ async def analyze_pcap_endpoint(file: UploadFile = File(...)):
 
     import tempfile
     try:
-        with tempfile.TemporaryDirectory(prefix="bharat_ids_api_") as temp:
+        with tempfile.TemporaryDirectory(prefix="cybershield_ids_api_") as temp:
             work = Path(temp)
             pcap_path = work / ("capture" + extension)
             csv_path = work / "flows.csv"

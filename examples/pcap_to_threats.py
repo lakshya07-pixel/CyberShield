@@ -18,7 +18,7 @@ from typing import Dict, Any, List
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
 
 from examples.flow_to_threats import process_flow_csv
-from src.bharat_ai_soc.ingestion.pcap import extract_flows_from_pcap
+from src.cybershield.ingestion.pcap import extract_flows_from_pcap
 
 
 def run_pcap_pipeline(

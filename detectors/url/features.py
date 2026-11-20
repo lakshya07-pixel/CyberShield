@@ -1,5 +1,5 @@
 """
-URL Feature Extraction Module for Bharat AI-SoC Challenge.
+URL Feature Extraction Module for CyberShield Challenge.
 Extracts 16 canonical lexical, structural, and information-theoretic features
 from URL strings for machine-learning-based phishing detection.
 

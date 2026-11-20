@@ -36,7 +36,7 @@ export class BackendNotConnectedError extends Error {
 }
 
 /**
- * API client for Bharat AI-SoC.
+ * API client for CyberShield.
  *
  * Network PCAP analysis uses the isolated Person 1 Network IDS worker.
  * Advisory generation and event correlation use the existing backend.

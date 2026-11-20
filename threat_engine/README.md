@@ -99,4 +99,4 @@ Integration with Person 1's detection module remains pending. The shared schema 
 - The current examples use sample JSON inputs.
 - The advisory engine has not yet been verified end to end with Person 1's module.
 - Llama-generated text is disabled in the user-facing advisory until its claims can be verified.
-- Completion against the official Bharat AI-SoC Challenge requirements has not yet been confirmed.
+- Completion against the official CyberShield Challenge requirements has not yet been confirmed.

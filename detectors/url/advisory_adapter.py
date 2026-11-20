@@ -25,7 +25,7 @@ def build_url_advisory(
         url_metadata: Optional extra metadata dictionary.
 
     Returns:
-        Structured advisory dictionary conforming to the Bharat AI-SoC standards.
+        Structured advisory dictionary conforming to the CyberShield standards.
 
     Raises:
         ValueError: If input structure or required fields are missing/malformed.

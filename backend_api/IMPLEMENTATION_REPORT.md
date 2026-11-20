@@ -1,7 +1,7 @@
-# Bharat AI-SoC — Backend API Integration (Phase 1) Implementation Report
+# CyberShield — Backend API Integration (Phase 1) Implementation Report
 
 **Implementation Date:** 2026-10-17  
-**Location:** `D:\Bharat AI\backend_api`  
+**Location:** `D:\CyberShield\backend_api`  
 **API Framework:** FastAPI + Uvicorn + Pydantic v2  
 
 ---
@@ -12,7 +12,7 @@ In this phase, a lightweight, secure HTTP API layer was implemented to expose th
 
 ### Architectural Separation
 ```text
-D:\Bharat AI\
+D:\CyberShield\
 ├── schemas.py                 [UNTOUCHED — Core threat schema]
 ├── threat_engine/             [UNTOUCHED — Existing rule engine & samples]
 │   ├── advisory.py
@@ -38,10 +38,10 @@ D:\Bharat AI\
 
 | File Path | Description |
 |---|---|
-| `D:\Bharat AI\backend_api\requirements.txt` | Minimal Python dependencies: `fastapi`, `uvicorn`, `pydantic`, `httpx`, `pytest`. |
-| `D:\Bharat AI\backend_api\main.py` | FastAPI application with CORS, Pydantic request/response models, health check, advisory generation, and explicit 501 stubs for unimplemented detectors. |
-| `D:\Bharat AI\backend_api\test_api.py` | 11 comprehensive unit/integration tests covering health, sample fixtures, severity thresholds, confidence validation, threat type validation, malformed payloads, CORS preflight, and 501 status codes. |
-| `D:\Bharat AI\backend_api\IMPLEMENTATION_REPORT.md` | This verification report. |
+| `D:\CyberShield\backend_api\requirements.txt` | Minimal Python dependencies: `fastapi`, `uvicorn`, `pydantic`, `httpx`, `pytest`. |
+| `D:\CyberShield\backend_api\main.py` | FastAPI application with CORS, Pydantic request/response models, health check, advisory generation, and explicit 501 stubs for unimplemented detectors. |
+| `D:\CyberShield\backend_api\test_api.py` | 11 comprehensive unit/integration tests covering health, sample fixtures, severity thresholds, confidence validation, threat type validation, malformed payloads, CORS preflight, and 501 status codes. |
+| `D:\CyberShield\backend_api\IMPLEMENTATION_REPORT.md` | This verification report. |
 
 *No frontend files or existing backend files were modified, moved, renamed, or deleted.*
 
@@ -50,7 +50,7 @@ D:\Bharat AI\
 ## 3. Dependency Installation and Server Startup Commands
 
 ### Dependencies
-From project root (`D:\Bharat AI`):
+From project root (`D:\CyberShield`):
 
 ```bash
 python -m pip install -r backend_api/requirements.txt
@@ -70,7 +70,7 @@ The OpenAPI interactive documentation is available at: `http://127.0.0.1:8000/do
 ## 4. Test Execution and Evidence
 
 ### Existing Threat Engine Tests
-Executed: `python -m unittest test_project -v` from `D:\Bharat AI\threat_engine`:
+Executed: `python -m unittest test_project -v` from `D:\CyberShield\threat_engine`:
 ```text
 test_all_sample_advisories (test_project.TestAdvisoryWorkflow.test_all_sample_advisories) ... ok
 test_recommendations (test_project.TestRecommendations.test_recommendations) ... ok
@@ -89,7 +89,7 @@ OK
 **Result:** 8 passed, 0 failed. Existing backend logic remains 100% intact.
 
 ### Backend API Test Suite
-Executed: `python -m unittest backend_api.test_api -v` from `D:\Bharat AI`:
+Executed: `python -m unittest backend_api.test_api -v` from `D:\CyberShield`:
 ```text
 test_invalid_confidence (backend_api.test_api.TestAdvisoryGenerateEndpoint.test_invalid_confidence) ... ok
 test_invalid_threat_type (backend_api.test_api.TestAdvisoryGenerateEndpoint.test_invalid_threat_type) ... ok
@@ -125,7 +125,7 @@ Uvicorn was launched on `127.0.0.1:8000` and live HTTP requests were dispatched 
 {
   "status": "healthy",
   "version": "1.0.0",
-  "service": "Bharat AI-SoC Threat Advisory API",
+  "service": "CyberShield Threat Advisory API",
   "engine_status": "rule_based_active",
   "detector_status": {
     "network_ids": "unavailable (pending Person 1 frozen 79-feature model)",

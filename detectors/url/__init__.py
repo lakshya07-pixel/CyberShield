@@ -1,5 +1,5 @@
 """
-URL Phishing Detection Subsystem for Bharat AI-SoC Challenge.
+URL Phishing Detection Subsystem for CyberShield Challenge.
 """
 
 from .inference import detect_url_threat, get_url_model

@@ -11,13 +11,13 @@ from pathlib import Path
 
 # Ensure person1_submission is in path
 root = Path(__file__).resolve().parent.parent
-p1_path = root / "person1_submission" / "bharat_ai_soc"
+p1_path = root / "person1_submission" / "cybershield"
 if str(p1_path) not in sys.path:
     sys.path.append(str(p1_path))
     sys.path.append(str(p1_path / "src"))
 
-from src.bharat_ai_soc.correlation.engine import CorrelationEngine
-from src.bharat_ai_soc.correlation.models import verify_incident_integrity
+from src.cybershield.correlation.engine import CorrelationEngine
+from src.cybershield.correlation.models import verify_incident_integrity
 
 
 def build_attack_storyline(incident: Dict[str, Any]) -> Dict[str, Any]:

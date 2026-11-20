@@ -74,7 +74,7 @@ export const SecurityAssistantPage: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       sender: 'assistant',
-      text: 'Hello. I am the Bharat AI-SoC Grounded Security Assistant.\n\nI provide deterministic, evidence-based security explanations and recommended mitigation playbooks completely offline. Select a quick prompt below or type your question.',
+      text: 'Hello. I am the CyberShield Grounded Security Assistant.\n\nI provide deterministic, evidence-based security explanations and recommended mitigation playbooks completely offline. Select a quick prompt below or type your question.',
       timestamp: new Date().toLocaleTimeString(),
       engine: 'Deterministic Grounded Rule & Evidence Engine',
       grounded: true,

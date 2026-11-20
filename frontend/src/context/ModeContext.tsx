@@ -8,7 +8,7 @@ interface ModeContextType {
   toggleMode: () => void;
 }
 
-const STORAGE_KEY = 'bharat_ai_soc_app_mode';
+const STORAGE_KEY = 'cybershield_app_mode';
 
 const ModeContext = createContext<ModeContextType | undefined>(undefined);
 

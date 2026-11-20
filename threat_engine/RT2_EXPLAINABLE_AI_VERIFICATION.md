@@ -1,4 +1,4 @@
-﻿# Bharat AI-SoC — RT2 Explainable AI Verification Report
+﻿# CyberShield — RT2 Explainable AI Verification Report
 
 **Verification date:** 2026-10-22
 **Stage:** RT2 — Explainable AI for Network Alerts

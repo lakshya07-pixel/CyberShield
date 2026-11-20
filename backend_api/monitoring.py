@@ -1,5 +1,5 @@
 """
-Bharat AI-SoC Real-Time Security Monitoring Service.
+CyberShield Real-Time Security Monitoring Service.
 
 Provides continuous, real-time live traffic monitoring and security event telemetry
 across Network, URL, and SMS channels with explicit provenance tags:

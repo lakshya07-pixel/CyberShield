@@ -1,5 +1,5 @@
 """
-SMS Scam / Smishing Detection Subsystem for Bharat AI-SoC Challenge.
+SMS Scam / Smishing Detection Subsystem for CyberShield Challenge.
 """
 
 from .inference import detect_sms_threat, get_sms_model
