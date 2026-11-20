@@ -1,0 +1,15 @@
+{
+    "source": "url",
+    "threat_type": "phishing",
+    "severity": "critical",
+    "confidence": 0.94,
+    "indicators": [
+        "suspicious domain",
+        "login keyword",
+        "unusual URL structure"
+    ],
+    "metadata": {
+        "url": "http://fake-login-example.com"
+    },
+    "timestamp": "2026-09-25T20:00:00"
+}

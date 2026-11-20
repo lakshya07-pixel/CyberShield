@@ -1,0 +1,32 @@
+{
+  "module": "network_ids",
+  "version": "1.0.0",
+  "model_name": "random_forest_baseline",
+  "model_type": "RandomForestClassifier",
+  "task": "multiclass",
+  "num_features": 79,
+  "artifacts": {
+    "models_dir": "models/network_ids/baseline_model",
+    "model_file": "random_forest_baseline.joblib",
+    "encoder_file": "label_encoder.joblib",
+    "features_file": "features.json"
+  },
+  "supported_attack_classes": [
+    "BENIGN",
+    "Bot",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "FTP-Patator",
+    "PortScan",
+    "SSH-Patator"
+  ],
+  "threat_engine": {
+    "provider": "person3_shared_engine",
+    "adapter": "detectors.network.advisory_adapter",
+    "severity_levels": ["low", "medium", "high", "critical"]
+  }
+}
+

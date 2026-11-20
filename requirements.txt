@@ -1,0 +1,28 @@
+# Core Data & Numerical Processing
+numpy>=1.26.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# Machine Learning & Imbalanced Learning
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0
+joblib>=1.3.0
+lightgbm>=4.0.0
+xgboost>=2.0.0
+
+# PCAP Network Capture & Feature Extraction
+scapy>=2.5.0
+cicflowmeter>=0.5.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.0
+
+# REST API Gateway
+fastapi>=0.103.0
+uvicorn>=0.23.0
+python-multipart>=0.0.9
