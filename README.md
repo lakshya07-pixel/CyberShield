@@ -52,27 +52,24 @@ flowchart TD
 
 ---
 
-## 3. Interface Gallery
+## 3. Application Screenshots
 
-<div align="center">
-
-| Security Operations Console | Real-Time Packet Monitoring |
-|:---:|:---:|
-| <img src="docs/screenshots/01-main-dashboard.png" alt="Security Operations Console" width="460" /> | <img src="docs/screenshots/02-realtime-monitoring.png" alt="Real-Time Packet Monitoring" width="460" /> |
-
-| Multi-Vector Threat Detection | Global Telemetry Distribution |
-|:---:|:---:|
-| <img src="docs/screenshots/03-threat-detection.png" alt="Multi-Vector Threat Detection" width="460" /> | <img src="docs/screenshots/04-global-telemetry.png" alt="Global Telemetry Distribution" width="460" /> |
-
-| Malicious URL & Phishing Scanner | AI Security Assistant |
-|:---:|:---:|
-| <img src="docs/screenshots/05-url-scanner.png" alt="Malicious URL & Phishing Scanner" width="460" /> | <img src="docs/screenshots/06-ai-assistant.png" alt="AI Security Assistant" width="460" /> |
-
-| Threat Analytics & Classification | System Health & Sensor Telemetry |
-|:---:|:---:|
-| <img src="docs/screenshots/07-threat-analytics.png" alt="Threat Analytics & Classification" width="460" /> | <img src="docs/screenshots/08-system-status.png" alt="System Health & Sensor Telemetry" width="460" /> |
-
-</div>
+<p align="center">
+  <img src="docs/screenshots/01-main-dashboard.png" width="48%" />
+  <img src="docs/screenshots/02-realtime-monitoring.png" width="48%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/03-threat-detection.png" width="48%" />
+  <img src="docs/screenshots/04-global-telemetry.png" width="48%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/05-url-scanner.png" width="48%" />
+  <img src="docs/screenshots/06-ai-assistant.png" width="48%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/07-threat-analytics.png" width="48%" />
+  <img src="docs/screenshots/08-system-status.png" width="48%" />
+</p>
 
 ---
 
