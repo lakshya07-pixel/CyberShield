@@ -120,24 +120,72 @@ The FastAPI gateway exposes API documentation and health endpoints:
 
 ```text
 CyberShield/
-├── backend_api/                 # FastAPI gateway, routes, and schemas
-│   ├── main.py                  # API entry point & route registration
-│   ├── routes/                  # Security endpoints (telemetry, threats, scan)
-│   └── schemas/                 # Pydantic models & request/response schemas
-├── configs/                     # System and detector configurations
-├── data/                        # PCAP samples and deterministic test datasets
-├── detectors/                   # AI & heuristic detection engines
-│   ├── network/                 # Network intrusion detection engine
-│   ├── sms/                     # SMS & text scam classifier
-│   └── url/                     # Malicious URL analyzer
-├── docs/                        # Project documentation & screenshots
+├── backend_api/                 # FastAPI service gateway and API endpoints
+│   ├── main.py                  # API entry point & service orchestration
+│   ├── assistant.py             # Security assistant query handler
+│   ├── correlation.py           # Multi-source incident correlation service
+│   ├── geo_service.py           # IP geographic telemetry resolver
+│   ├── monitoring.py            # Live network monitor & packet telemetry
+│   └── storyline.py            # Attack sequence timeline & storyline engine
+├── configs/                     # System configurations and detector hyperparameters
+│   ├── config.yaml              # Global platform configuration
+│   └── network_ids/             # Network intrusion detection model parameters
+├── data/                        # Datasets, benchmarks, and network captures
+│   └── pcap_samples/            # Sample PCAP captures for offline verification
+├── detectors/                   # Multi-vector machine learning detection engines
+│   ├── network/                 # Network intrusion detection system (NIDS)
+│   ├── sms/                     # SMS scam & fraudulent message classifier
+│   └── url/                     # Malicious URL and phishing detector
+├── docs/                        # Project documentation and visual assets
 │   └── screenshots/             # Interface gallery captures (01 to 08)
-├── examples/                    # Evaluation and demonstration scripts
-├── models/                      # Serialized ML models and preprocessors
-├── tests/                       # Automated unit and integration tests
+├── examples/                    # Demonstration scripts and evaluation workflows
+│   ├── evaluate_network_ids.py  # Network detector performance benchmark
+│   ├── flow_to_threats.py       # Flow extraction to threat pipeline example
+│   └── pcap_to_threats.py       # End-to-end PCAP parsing and analysis runner
+├── frontend/                    # React 18, TypeScript & Vite security console
+│   ├── src/                     # Application source code
+│   │   ├── components/          # Reusable UI widgets and advisory panels
+│   │   ├── modes/user/          # User Mode interface components
+│   │   ├── pages/               # Security console views and dashboards
+│   │   ├── services/            # API client and client-side rule engine
+│   │   ├── types/               # TypeScript data models and interfaces
+│   │   ├── App.tsx              # Root application router and layout
+│   │   └── main.tsx             # Vite React application entry point
+│   ├── package.json             # Frontend dependency manifest
+│   ├── tsconfig.json            # TypeScript compiler configuration
+│   └── vite.config.ts           # Vite bundler and development server setup
+├── models/                      # Serialized ML model weights and encoders
+│   ├── network_ids/             # Random forest baseline and feature schema
+│   ├── sms_scam/                # SMS classification model
+│   └── url_phishing/            # Phishing URL logistic & random forest models
+├── src/                         # CyberShield core package & pipeline engine
+│   ├── cybershield/             # Main application package
+│   │   ├── api/                 # Internal API controllers and schemas
+│   │   ├── cli/                 # Command-line interface entry points
+│   │   ├── correlation/         # Incident correlation & summary engines
+│   │   ├── detectors/           # Behavioral scanners and heuristic modules
+│   │   ├── explainability/      # Feature importance and flow explainer
+│   │   ├── ingestion/           # PCAP replayers, sniffers, and flow extractors
+│   │   ├── services/            # Threat pipeline and AI assistant coordinator
+│   │   └── threat_engine/       # Security threat engine contract interfaces
+│   ├── evaluation/              # Model evaluation metrics and benchmarks
+│   ├── features/                # Preprocessing and feature engineering
+│   ├── models/                  # Training pipeline definitions
+│   └── utils/                   # Data loading and utility functions
+├── threat_engine/               # Security advisory and recommendation rules
+│   ├── llama/                   # Local reasoning prompts and inference modules
+│   ├── samples/                 # Sample threat event definitions
+│   ├── advisory.py              # Security advisory generator
+│   ├── recommendations.py       # Threat mitigation recommendation engine
+│   ├── rules.py                 # Expert security rule definitions
+│   └── severity.py              # Threat severity scoring algorithms
+├── .env.example                 # Environment variable template
+├── .gitignore                   # Git repository ignore patterns
 ├── LICENSE                      # CyberShield Proprietary Software License
 ├── README.md                    # Primary project documentation
-└── requirements.txt             # Backend Python dependencies
+├── requirements.txt             # Backend Python dependencies
+├── schemas.py                   # Canonical data exchange schemas
+└── start_application.bat        # Windows platform startup launcher
 ```
 
 ---
