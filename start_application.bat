@@ -1,6 +1,6 @@
 @echo off
 REM ============================================================================
-REM CyberShield Challenge — Dual-Mode Full-Stack Startup Script
+REM CyberShield
 REM ============================================================================
 
 echo Starting CyberShield Unified Backend on http://127.0.0.1:8000 ...
