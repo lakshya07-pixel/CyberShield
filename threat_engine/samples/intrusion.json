@@ -1,0 +1,14 @@
+{
+    "source": "network",
+    "threat_type": "intrusion",
+    "severity": "critical",
+    "confidence": 0.91,
+    "indicators": [
+        "abnormal traffic volume",
+        "multiple connection attempts"
+    ],
+    "metadata": {
+        "source_ip": "192.168.1.100"
+    },
+    "timestamp": "2026-09-25T20:00:00"
+}
