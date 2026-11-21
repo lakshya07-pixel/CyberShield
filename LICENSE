@@ -1,0 +1,149 @@
+# CYBERSHIELD PROPRIETARY SOFTWARE LICENSE
+
+**Copyright © 2026 LAKSHYA SREE T, SANJAY V S AND LAKSHITHA S. All Rights Reserved.**
+
+---
+
+### PREAMBLE
+This Proprietary Software License ("Agreement" or "License") is a legal agreement between the Licensors (LAKSHYA SREE T, SANJAY V S, and LAKSHITHA S, collectively referred to as "Licensors", "Authors", or "Owners") and any individual, entity, organization, or user ("Licensee", "Recipient", or "You") accessing, reviewing, evaluating, downloading, copying, or executing the software program and associated assets known as **CyberShield**.
+
+By accessing, viewing, cloning, installing, downloading, or using any part of the CyberShield source code, models, weights, schemas, frontend components, configurations, or documentation, You explicitly agree to be bound by all terms, conditions, and restrictions established in this Agreement. If You do not agree to all terms of this License, You are not granted rights to access or use the Software, and You must immediately destroy or delete all local copies.
+
+---
+
+### SECTION 1: DEFINITIONS
+1. **"Software"** means the CyberShield cybersecurity suite, encompassing without limitation:
+   - Source code written in Python, TypeScript, JavaScript, HTML, CSS, Shell/PowerShell scripts, and SQL.
+   - FastAPI gateway, backend microservices, telemetry ingestion engines, and routing layers.
+   - Machine learning pipelines, pre-trained weights, serialized models (`.pkl`, `.onnx`, `.joblib`, `.pt`, `.safetensors`, `.bin`), feature extractors, and scalers.
+   - Detector modules (including network intrusion detection, SMS scam detection, URL phishing classification, and security analytics).
+   - React/TypeScript web applications, UI layouts, components, icons, and stylesheets.
+   - Threat intelligence signatures, rule files, test suites, architecture schemas, and documentation.
+2. **"Licensors"** means the original creators and authors: LAKSHYA SREE T, SANJAY V S, and LAKSHITHA S.
+3. **"Derivative Work"** means any work, modification, translation, adaptation, port, enhancement, or extension derived from or based upon the Software.
+4. **"Commercial Use"** means any activity conducted for financial gain, direct or indirect commercial advantage, fee-for-service, SaaS hosting, enterprise licensing, or paid consulting.
+5. **"Academic / Non-Commercial Review"** means non-operational evaluation, academic research reading, competition judging, and personal non-production inspection.
+
+---
+
+### SECTION 2: INTELLECTUAL PROPERTY OWNERSHIP
+1. The Software and all intellectual property rights therein—including but not limited to patents, copyrights, trade secrets, trademarks, algorithmic workflows, neural architectures, detector designs, and proprietary heuristics—are and shall remain the exclusive property of the Licensors: **LAKSHYA SREE T, SANJAY V S, and LAKSHITHA S**.
+2. Nothing in this Agreement grants You ownership of the Software or any portion thereof. You are granted solely a revocable, limited, non-exclusive, non-transferable license strictly within the terms defined herein.
+3. All title, rights, and interests not expressly granted in writing by the Licensors are reserved unconditionally.
+
+---
+
+### SECTION 3: LIMITED LICENSE TO USE
+Subject to the terms and limitations of this Agreement, the Licensors grant Licensee a non-exclusive, revocable, non-transferable, and royalty-free limited personal license solely to:
+1. View, read, and evaluate the source code for educational, academic review, competition verification, or peer assessment purposes.
+2. Execute the Software strictly in a private, non-commercial, local offline environment for personal testing, functional validation, and demonstration purposes.
+3. Use the system solely without charge, sublicensing, multi-tenant deployment, or public web exposure.
+
+---
+
+### SECTION 4: SOURCE CODE COPYING AND REDISTRIBUTION RESTRICTIONS
+1. **No Public Redistribution:** You may not publish, redistribute, broadcast, mirror, rent, lease, sub-license, resell, or distribute the Software, in whole or in part, in source or binary form, without express prior written consent from all Licensors.
+2. **Private Copies:** You may retain one (1) local copy strictly for private backup and evaluation purposes. All copyright notices, ownership tags, and this License file must remain intact without modification in every copy.
+3. **No Sublicensing:** You may not grant sub-licenses, delegate usage permissions, or transfer rights under this Agreement to any third party.
+
+---
+
+### SECTION 5: MODIFICATIONS AND DERIVATIVE WORKS
+1. You may make local, private modifications exclusively for personal experimental evaluation or academic benchmarking.
+2. Any Derivative Work, enhancement, bug fix, or adaptation based upon or incorporating CyberShield source code, models, or design patterns remains subject to this License and belongs in authorship and underlying intellectual property to the Licensors.
+3. You may not distribute, publish, merge into public repositories, or commercially exploit any Derivative Work without prior written authorization from the Licensors.
+
+---
+
+### SECTION 6: REVERSE ENGINEERING AND MODEL EXTRACTION RESTRICTIONS
+1. You shall not decompile, disassemble, reverse engineer, or attempt to reconstruct the inner weights, feature vectors, or logic of proprietary models except to the minimal extent expressly permitted by applicable mandatory law.
+2. You shall not extract, harvest, distill, scrape, or export machine learning model weights, encoders, or engineered dataset signatures for training competing models, commercial tools, or automated classification services.
+
+---
+
+### SECTION 7: CONFIDENTIALITY
+1. To the extent any pre-release architectures, proprietary threat signatures, or non-public implementation details are made available, Licensee agrees to maintain such materials in strict confidence.
+2. Licensee shall exercise at least the same degree of care to protect the Software as it exercises for its own confidential assets, and in no event less than reasonable standard care.
+
+---
+
+### SECTION 8: ACADEMIC, COMPETITION, AND DEMO USAGE
+1. CyberShield may be demonstrated in educational, evaluation, academic, or formal judging forums provided that:
+   - Full, prominent attribution is given to **LAKSHYA SREE T, SANJAY V S, and LAKSHITHA S**.
+   - No fees, admission charges, or monetary remuneration are collected for access to the system.
+   - Any presentation or report displaying system outputs, metrics, or telemetry acknowledges CyberShield and its Authors.
+
+---
+
+### SECTION 9: CONTRIBUTOR RIGHTS AND ATTRIBUTION
+1. CyberShield is collaboratively engineered by:
+   - **LAKSHYA SREE T**
+   - **SANJAY V S**
+   - **LAKSHITHA S**
+2. Any contributions submitted to or incorporated into the CyberShield repository by invitees or contributors become part of the collective work subject to this License, with primary intellectual property rights maintained by the Licensors.
+3. All documentation, splash screens, headers, user interfaces, and reports must preserve the names and copyright attribution of the Authors.
+
+---
+
+### SECTION 10: THIRD-PARTY COMPONENTS AND OPEN-SOURCE LIBRARIES
+1. The Software utilizes standard third-party open-source libraries, runtime dependencies, and frameworks (e.g., FastAPI, React, PyTorch, Scikit-learn, Vite, Lucide, Tailwind CSS) governed by their respective licenses (such as MIT, Apache 2.0, or BSD).
+2. Nothing in this proprietary License restricts, overrides, or limits the rights granted by those respective third-party licenses for their standalone libraries.
+3. The custom application source code, composite architecture, integrated threat detection models, coordination engines, and user interfaces of CyberShield remain proprietary and fully protected under this License.
+
+---
+
+### SECTION 11: TRADEMARKS AND BRANDING
+1. The names **"CyberShield"**, associated logos, icons, interface styling, and branded identifiers are proprietary designations belonging to the Authors.
+2. No right or license is granted to use any trademark, trade name, service mark, or trade dress of CyberShield in advertising, marketing, packaging, or public statements without express written authorization.
+
+---
+
+### SECTION 12: NO WARRANTY (DISCLAIMER)
+1. THE SOFTWARE IS PROVIDED BY THE LICENSORS AND CONTRIBUTORS "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND DEFECTS.
+2. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSORS DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, SECURITY, NON-INFRINGEMENT, OR SYSTEM INTEGRATION.
+3. THE LICENSORS DO NOT WARRANT THAT CYBERSHIELD WILL BE UNINTERRUPTED, ERROR-FREE, IMMUNE FROM MALICIOUS INTRUSION, OR CAPABLE OF PREVENTING ALL SECURITY BREACHES OR THREATS.
+
+---
+
+### SECTION 13: LIMITATION OF LIABILITY
+1. UNDER NO CIRCUMSTANCES SHALL THE LICENSORS, AUTHORS, OR CONTRIBUTORS BE LIABLE TO ANY PERSON OR ENTITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF DATA, REVENUE, PROFIT, OR USE; BUSINESS INTERRUPTION; OR SECURITY INCIDENTS) ARISING IN ANY WAY OUT OF THE USE, INSTALLATION, EXECUTION, OR INABILITY TO USE THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+2. IN JURISDICTIONS WHERE LIMITATION OF LIABILITY IS RESTRICTED, THE LICENSORS' AGGREGATE LIABILITY SHALL NOT EXCEED THE SUM OF INR ₹100 OR THE MINIMUM AMOUNT PERMITTED BY LAW.
+
+---
+
+### SECTION 14: TERMINATION
+1. This License is effective until terminated.
+2. Your rights under this License terminate automatically without notice if You fail to comply with any provision of this Agreement, or if You initiate legal or intellectual property infringement claims against the Licensors.
+3. Upon termination, You must immediately cease all use of the Software, unmount or disconnect any deployed instances, and destroy all copies of the Software in your possession or control.
+4. Sections 1, 2, 4, 5, 6, 7, 11, 12, 13, 15, 16, 17, and 18 shall survive termination.
+
+---
+
+### SECTION 15: ENFORCEMENT AND LEGAL REMEDIES
+1. Any violation of this Agreement constitutes copyright infringement, breach of contract, and a violation of applicable trade secret and intellectual property laws.
+2. The Licensors reserve the right to seek preliminary and permanent injunctive relief, monetary damages, statutory penalties, and recovery of legal costs and attorney's fees incurred in enforcing this License.
+
+---
+
+### SECTION 16: GOVERNING LAW AND JURISDICTION
+1. This Agreement shall be governed by, construed, and enforced in accordance with the laws of the **Republic of India**, without giving effect to any principles of conflicts of law.
+2. Any legal suit, action, dispute, or proceeding arising out of or related to this Software or Agreement shall be instituted exclusively in the competent courts having jurisdiction in **India**.
+3. The parties hereby consent and submit to the exclusive personal and subject-matter jurisdiction of such Indian courts.
+
+---
+
+### SECTION 17: SEVERABILITY
+If any provision of this Agreement is held to be invalid, illegal, or unenforceable under applicable law, that provision shall be reformed only to the extent necessary to make it enforceable while maintaining its original intent, and the remaining provisions of this Agreement shall continue in full force and effect.
+
+---
+
+### SECTION 18: ENTIRE AGREEMENT
+This Agreement constitutes the entire and complete understanding between the parties regarding the Software and supersedes all prior or contemporaneous agreements, understandings, representations, discussions, or proposals, whether written or oral, concerning the subject matter.
+
+---
+
+### SECTION 19: ALL RIGHTS RESERVED
+All rights, titles, and interests in CyberShield not explicitly granted in this Agreement remain reserved exclusively and unconditionally to:
+
+**LAKSHYA SREE T, SANJAY V S, AND LAKSHITHA S**  
+© 2026. All Rights Reserved.
